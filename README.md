@@ -1,2 +1,2 @@
-To run the entire processing of the plus 5 millions collection and creation of the big transition matrix, calculation of MR and MRM, run "python execute_gitskills.py" (1st stage of pipeline)
-To run the fine-grained evaluation of MR and MRM with the SkillsVote approach, calculation of MRR, NDCG@3, NDCG@5, Rec@1, Rec@3 and Rec@5 against the csv/output of 1st stage, run "python eval_finer_granularity_v2.py" (2nd stage of pipeline)
+1/To run the entire processing of the plus 5 millions collection and creation of the big transition matrix, calculation of MR and MRM, run "python execute_gitskills.py" (1st stage of pipeline)
+2/To run the fine-grained evaluation of MR and MRM with the SkillsVote approach, calculation of MRR, NDCG@3, NDCG@5, Rec@1, Rec@3 and Rec@5 against the csv/output of 1st stage, run "python eval_finer_granularity_v2.py" (2nd stage of pipeline)
