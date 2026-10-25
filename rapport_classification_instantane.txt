@@ -1,0 +1,13 @@
+==================================================================
+📝 EXTENSION DE RAPPORT : EVALUATION DISCRÈTE DES MODÈLES TOPOLOGIQUES
+==================================================================
+
+Nombre de tâches analysées (issues du CSV) : 3128
+Seuil adaptatif Top-K appliqué : 245 tâches supérieures
+
+SCORES DE CLASSIFICATION CROISÉS (MÉTHODES TOPOLOGIQUES vs MACHINE LEARNING)
+   - MarsRank (MR)    : P = 34.27% | R = 25.64% | F1 = 28.88%
+   - MarsRank (MRM)   : P = 26.43% | R = 19.71% | F1 = 22.24%
+   - Machine Learning : P = 9.11% | R = 6.74% | F1 = 7.63%
+   - PageRank (PR)    : P = 9.24% | R = 6.54% | F1 = 7.57%
+==================================================================

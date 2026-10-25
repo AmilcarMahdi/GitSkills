@@ -1,0 +1,18 @@
+==================================================================
+📝 PH.D. DISSERTATION REPORT: SKILLSVOTE & MARSRANK INTEGRATION
+==================================================================
+
+Pipeline Setup: Stage 1 (SkillsVote Filtering) -> Stage 2 (Topological Re-ranking)
+
+- SkillsVote + MarsRank (Ours):
+  MRR = 0.402 | nDCG@3 = 0.347 | nDCG@5 = 0.383
+  Recall@1 = 2.9% | Recall@3 = 35.2% | Recall@5 = 48.1%
+
+- SkillsVote + Machine Learning:
+  MRR = 0.317 | nDCG@3 = 0.298 | nDCG@5 = 0.343
+  Recall@1 = 2.9% | Recall@3 = 8.6% | Recall@5 = 21.0%
+
+- SkillsVote + PageRank:
+  MRR = 0.215 | nDCG@3 = 0.100 | nDCG@5 = 0.166
+  Recall@1 = 0.0% | Recall@3 = 20.0% | Recall@5 = 30.0%
+

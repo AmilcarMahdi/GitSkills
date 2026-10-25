@@ -1,0 +1,14 @@
+==================================================================
+📝 EXPERIMENT 2: DOMAIN-ISOLATED SKILL RECOMMENDATION BENCHMARK
+==================================================================
+
+Candidate Set Pool Width : N = 15 structural components
+Total Evaluated Contexts : 91 domain-driven blocks
+
+Method               | MRR    | nDCG@3  | nDCG@5  | Rec@1   | Rec@3   | Rec@5  
+---------------------------------------------------------------------------
+MarsRank (MR)        | 0.931 | 0.838 | 0.852 | 6.5% | 18.1% | 31.4%
+MarsRank (MRM)       | 0.931 | 0.872 | 0.892 | 6.5% | 19.2% | 33.7%
+Machine Learning     | 0.861 | 0.893 | 0.893 | 6.0% | 18.0% | 31.0%
+PageRank (PR)        | 0.956 | 0.915 | 0.900 | 7.1% | 20.1% | 33.1%
+==================================================================

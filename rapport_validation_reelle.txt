@@ -1,0 +1,17 @@
+==================================================================
+📝 RAPPORT VALIDATION DOCTORALE : MÉTHODES TOPOLOGIQUES & ML RÉEL
+==================================================================
+
+Nombre de tâches alignées : 3128
+
+1. TABLEAU COMPARATIF DES COEFFICIENTS DE KENDALL (VS TOKENS)
+   - MarsRank (MR)      : Tau = 0.2460 (62.3% paires concordantes)
+   - MarsRank (MRM)     : Tau = 0.1764 (58.8% paires concordantes)
+   - Machine Learning   : Tau = 0.0000 (50.0% paires concordantes)
+   - PageRank (PR)      : Tau = -0.0343 (48.3% paires concordantes)
+
+2. SCORES DE CLASSIFICATION DU MODÈLE DE MACHINE LEARNING
+   - Weighted Precision : 47.44%
+   - Weighted Recall    : 53.76%
+   - Weighted F1-Score  : 50.15%
+==================================================================

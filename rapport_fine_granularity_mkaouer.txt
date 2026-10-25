@@ -1,0 +1,14 @@
+==================================================================
+📝 EXPERIMENT 2: FINE-GRAINED TOOL SKILL RECOMMENDATION BENCHMARK
+==================================================================
+
+Candidate Set Pool Width : N = 15 structural components
+Total Evaluated Contexts : 7 framework-driven blocks
+
+Method               | MRR    | nDCG@3  | nDCG@5  | Rec@1   | Rec@3   | Rec@5  
+---------------------------------------------------------------------------
+MarsRank (MR)        | 0.312 | 0.220 | 0.271 | 0.0% | 26.2% | 39.5%
+MarsRank (MRM)       | 0.402 | 0.347 | 0.383 | 2.9% | 35.2% | 48.1%
+Machine Learning     | 0.317 | 0.298 | 0.343 | 2.9% | 8.6% | 21.0%
+PageRank (PR)        | 0.215 | 0.100 | 0.166 | 0.0% | 20.0% | 30.0%
+==================================================================

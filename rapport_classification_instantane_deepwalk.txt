@@ -1,0 +1,4 @@
+
+3. BASELINE ADDITIONNEL SOTA : GRAPH REPRESENTATION EMBEDDINGS
+   - Node2Vec / DeepWalk (Continuous Ranking)   : Tau = 0.2018 (60.1% concordance)
+   - Node2Vec / DeepWalk (Discrete Prediction) : P = 19.53% | R = 42.86% | F1 = 26.53%
